@@ -1,0 +1,36 @@
+.module-standard {
+    margin-bottom: 20px;
+    position: relative;
+    padding: 10px 10px 10px 10px;
+}
+
+.purchaseInfo, .theaterInfo, .purchaseBreakDown {
+  margin-bottom: 15px;
+  position: relative;
+  padding: 10px 10px 10px 10px;
+}
+
+h3.movieTitle {
+    line-height: 21px;
+    margin: 0;
+}
+h3.movieTitle, h3#movieTitle {
+    font-size: 28px;
+    font-weight: normal;
+    margin: 0;
+    line-height: 23px;
+}
+h3 {
+    font-size: 26px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+h3 {
+    font-size: 28px;
+    line-height: 25px;
+}
+h1, h2, h3, h4 {
+    font-family: "alternate-gothic-no-1-d", "Futura Condensed", "Arial Narrow", Arial, sans-serif;
+    text-transform: uppercase;
+}

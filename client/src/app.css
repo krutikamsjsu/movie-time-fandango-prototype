@@ -1,0 +1,268 @@
+body {
+    overflow: auto;
+    background-color: #FFF;
+    color: #4C4C4C;
+    display: block;
+}
+
+.movie-tickets-header {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #929292;
+}
+
+.brand-bar {
+    background-color: #000;
+    color: #FFF;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+    position: relative;
+}
+
+.row {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1280px;
+}
+
+.right {
+    bottom: 0;
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    right: 10px;
+    text-align: right;
+    top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1280px;
+    padding-right: 140px
+}
+
+.banner-bar {
+    background: #9f599b;
+    color: #fff;
+    cursor: pointer;
+    font-size: 11px;
+    height: auto;
+    line-height: 22px;
+    min-height: 22px;
+    padding: 6px 16px;
+    position: absolute;
+    left: calc(50% - 280px);
+    text-align: center;
+    width: 560px;
+    z-index: 1;
+}
+
+.navLink{
+color: #fff;
+}
+
+.bar{
+position: absolute;
+height: 100%;
+z-index: -1;
+top: 0;
+width: 100%;
+}
+
+
+.global-header {
+    position: relative;
+    right: 0;
+    left: 0;
+    z-index: 3;
+    border-bottom: 2px solid #F15500;
+    background-color: rgba(51,51,51,.95);
+    box-shadow: 0 2px 2px rgba(50,50,50,.3);
+}
+
+.icon {
+    font-size: 0;
+    direction: ltr;
+    background-color: transparent;
+}
+
+.img-logo{
+  height: 60px;
+  width: 230px
+}
+.global-menu {
+    color: #ebebeb;
+    list-style-type: none;
+        display: block;
+}
+
+.global-menu-ul{
+      display: block;
+}
+.global-menu-li {
+    padding: 0 0 0 14px;
+    padding-top: 5px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.float-right {
+    float: right;
+}
+.page.registration {
+    padding: 80px 0 136px;
+}
+
+.registration-header {
+    background: none repeat scroll 0 0 rgba(34, 34, 34, 0.8);
+    box-shadow: 0 2px 2px rgba(50, 50, 50, 0.3);
+    height: auto;
+    max-height: 74px;
+    position: relative;
+    transition: background-color 0.2s ease-in-out 0s;
+    width: 100%;
+}
+.page.registration {
+    padding: 80px 0 136px;
+}
+
+.panel {
+    background: none repeat scroll 0 0 rgba(34, 34, 34, 0.8);
+    border: 1px solid #929292;
+    overflow: visible;
+    width: 40%;
+    padding-left: 20px;
+}
+
+.columns {
+    width: 48%;
+}
+
+.login-div {
+  background: Black;
+  color: white;
+    font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 600px;
+}
+
+.errors{
+  background: Black;
+  color: white;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  padding-top: 10px;
+}
+
+.normal {
+  background: #ebebeb;
+  color: white;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  padding-top: 10px;
+}
+
+.registration {
+    padding: 60px 0 136px;
+}
+
+.login-col {
+    background: #333333;
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    position: relative;
+    cursor: default;
+}
+
+.sub-panel {
+    padding: 25px 25px 0;
+}
+
+.p-top{
+  padding-top: 10px;
+}
+
+.p-buttom{
+  padding-bottom: 10px;
+}
+
+.btn-cta {
+    background: rgba(74, 167, 246, 0.6);
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -2;
+}
+
+.login-img{
+  width: 290px;
+  height: 70px;
+  padding-bottom: 10px;
+}
+
+.google-img{
+  width: 270px;
+  height: 50px;
+  padding-bottom: 10px;
+  padding-left: 70px;
+}
+
+.center{
+  align-items: center;
+}
+
+.page-header-container {
+    background: no-repeat scroll center 0 / cover rgba(0,0,0,0);
+    background-image: url("images/banner-img.png");
+    padding: 0;
+}
+
+.page-header {
+    color: #fff;
+    margin: 20px 0 2px;
+    display: block;
+    font-weight: bold;
+}
+
+.page-header-emphasis {
+    color: #ff7900;
+}
+
+.page-navigation{
+  display: flex;
+  padding-top: 10px;
+}
+
+.page-navigation-list {
+    list-style: none outside none;
+    margin: 0 0 12px;
+}
+
+.page-navigation-link {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    opacity: .6;
+    transition: all .2s ease-in-out;
+}
+
+a:hover {
+    color: white;
+}
+.header-border{
+    border-bottom: 3px solid #F15500;
+}
+h1{
+    color:white;
+    font-weight:700;
+}
+
+.hgt{
+    display: block;
+}
